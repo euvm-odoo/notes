@@ -95,5 +95,11 @@ Also make sure that the postgres server is active and running.
 
 Lastly run Odoo using the command:
 ```bash
-(odoo-env-name)$ python odoo-bin -d <name-of-database> -r <username> --limit-memory-hard 0
+python odoo-bin -d <name-of-database> -r <username> --limit-memory-hard 0
+```
+
+## Deactivate environment
+To exit the virtual environment, deactivate it running 
+```bash
+conda deactivate 
 ```
