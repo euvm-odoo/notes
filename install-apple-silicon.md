@@ -2,7 +2,9 @@
 
 The following is a guide on how to install Odoo and manage different versions on Apple Silicon Macs. 
 
-> This was last tested on M1 Pro and M2 running under macOS Ventura. It is possible future versions of macOS discontinue support for Rosetta 2. 
+> This was last tested on M1 Pro and M2 running under macOS Ventura. It is possible future versions of macOS discontinue support for Rosetta 2.
+
+[Video Tutorial Here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Pre-requirements
 The following requirements are necessary
