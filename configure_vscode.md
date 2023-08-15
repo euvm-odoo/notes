@@ -6,7 +6,7 @@ However, the path to odoo must be configured so that no errors (or squiggly line
 In the `.vscode/settings.json` file, add the path to Odoo in the `python.analysis.extraPaths` list. E.g.:
 ```json
 "python.analysis.extraPaths": [
-    "/Users/edvilme/Documents/odoo/"
+    "~/odoo/versions/<version_number>/odoo"
 ]
 ```
 
