@@ -10,5 +10,11 @@ In the `.vscode/settings.json` file, add the path to Odoo in the `python.analysi
 ]
 ```
 
+## Add final new line
+Odoo coding guidelines suggest adding an empty line at the end of each file. This behavior can be configured on vscode in the `files.insertFinalNewline` attribute. E.g.:
+```json
+files.insertFinalNewline: true
+```
+
 ## Useful links
 https://www.odoo.com/es_ES/forum/ayuda-1/how-to-properly-import-odoo-in-visualstudio-code-151327
