@@ -26,3 +26,7 @@ UPDATE ir_config_parameter SET value = '2040-01-01 00:00:00' WHERE key = 'databa
 UPDATE ir_ui_view SET active = 'f' WHERE id in (SELECT id FROM ir_ui_view WHERE  name like '%saas trial assets%');
 DELETE FROM ir_attachment WHERE name like '%assets';
 ```
+
+----------------------------------------------------
+
+[More info... (ES)](https://docs.google.com/document/d/1So74pW-V0xIbkaw5HYSodce5r5tq9MDf3dSBy9uE4WE/edit)
