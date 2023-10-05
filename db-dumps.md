@@ -2,7 +2,13 @@
 When working with clients, it is common to need a copy of their data (not just their modules) stored locally to remove risk of manipulating data. To achieve this, dumps are used
 
 ### Get dump from Odoo SaaS
-To get a dump from an Odoo SaaS database, append the following to the end of the url: `/saas_worker/dump.sql.gz`.
+Dunps from Odoo SaaS (Online) databases can be accessed through the `saas_worker` path, under the following extensions:
+| Contents | Path |
+| -------- | ---- |
+| SQL Dump + Filestore (zipped) | `saas_worker/dump.zip` | 
+| SQL Dump (gzipped) | `saas_worker/dump.sql.gz` | 
+| SQL Dump (binary) | `saas_worker/dump.dump` |
+
 
 ### Get dump from Odoo SH
 To get a dump from an Odoo SH database, access the support page at `/_odoo/support` and access the SH project page. From there, select the branch and create a backup to download.n
